@@ -1,12 +1,13 @@
-import "./App.css";
-import ToDoForm from "./toDoForm";
+import "./app.css";
+import TodoList from "./componentes/todoList";
 
-function App() {
+const TodoListPage = () => {
   return (
-    <div className="App">
-      <ToDoForm />
-    </div>
+    <section style={{ height: "100vh" }}>
+      <h1>ToDo list</h1>
+      <TodoList />
+    </section>
   );
-}
+};
 
-export default App;
+export default TodoListPage;
